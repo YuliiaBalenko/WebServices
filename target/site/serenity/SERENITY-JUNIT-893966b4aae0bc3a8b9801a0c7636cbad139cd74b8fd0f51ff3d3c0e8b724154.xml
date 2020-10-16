@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="tests.SampleTestsOrderStore" skipped="0" tests="1" time="0.0" timestamp="2020-10-15 09:22:01"><testcase classname="tests.SampleTestsOrderStore" name="Initialisation"><error message="Lexing failed on line: 1, column: 1, while reading '&lt;', no possible valid JSON value or punctuation could be recognized." type="groovy.json.JsonException">Lexing failed on line: 1, column: 1, while reading '&lt;', no possible valid JSON value or punctuation could be recognized.</error><system-err>Lexing failed on line: 1, column: 1, while reading '&lt;', no possible valid JSON value or punctuation could be recognized.
+groovy.json.JsonLexer.nextToken(JsonLexer.java:87)
+io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+io.restassured.path.json.JsonPath.getList(JsonPath.java:391)
+tests.SampleTestsOrderStore.cleanup(SampleTestsOrderStore.java:27)
+</system-err></testcase></testsuite>

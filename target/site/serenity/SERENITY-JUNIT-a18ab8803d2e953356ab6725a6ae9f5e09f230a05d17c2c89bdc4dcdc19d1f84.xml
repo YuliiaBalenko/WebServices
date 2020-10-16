@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="tests.CrudTestsPetStoreOrderEndpoint" skipped="0" tests="1" time="3.5" timestamp="2020-10-16 09:44:14"><testcase classname="tests.CrudTestsPetStoreOrderEndpoint" name="verification of get request"><failure message="&#10;The following 2 assertions failed:&#10;1) [Status] expected:&lt;&quot;approved&quot;&gt; but was:&lt;null&gt;&#10;2) [Quantity] expected:&lt;[3]&gt; but was:&lt;[0]&gt;&#10;" type="org.assertj.core.api.SoftAssertionError">
+The following 2 assertions failed:
+1) [Status] expected:&lt;"approved"&gt; but was:&lt;null&gt;
+2) [Quantity] expected:&lt;[3]&gt; but was:&lt;[0]&gt;
+</failure><system-err>
+The following 2 assertions failed:
+1) [Status] expected:&lt;"approved"&gt; but was:&lt;null&gt;
+2) [Quantity] expected:&lt;[3]&gt; but was:&lt;[0]&gt;
+
+tests.CrudTestsPetStoreOrderEndpoint.readPetInventories(CrudTestsPetStoreOrderEndpoint.java:85)
+</system-err></testcase></testsuite>

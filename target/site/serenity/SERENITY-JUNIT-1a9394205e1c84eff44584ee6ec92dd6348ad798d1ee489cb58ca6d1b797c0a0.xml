@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="tests.CrudTestsPetStoreOrderEndpoint" skipped="0" tests="1" time="3.53" timestamp="2020-10-16 02:51:18"><testcase classname="tests.CrudTestsPetStoreOrderEndpoint" name="verification of get request"/></testsuite>
